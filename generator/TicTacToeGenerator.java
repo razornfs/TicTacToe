@@ -24,6 +24,7 @@ public class TicTacToeGenerator {
                 printIndented(depth + 1, "System.out.println(\"You win!\");");
                 printIndented(depth + 1, "System.exit(0);");
                 printIndented(depth, "}");
+                board.removeTile(i);
                 continue;
             }
 
@@ -34,7 +35,7 @@ public class TicTacToeGenerator {
                 continue;
             }
 
-            OptimalPlayer computer = new OptimalPlayer(new Board(board), Tile.O);
+            OptimalPlayer computer = new OptimalPlayer(board, Tile.O);
             int computerMove = computer.getOptimalMove();
             board.placeTile(Tile.O, computerMove);
 
@@ -45,6 +46,8 @@ public class TicTacToeGenerator {
                 printIndented(depth + 1, "System.out.println(\"The computer wins!\");");
                 printIndented(depth + 1, "System.exit(0);");
                 printIndented(depth, "}");
+                board.removeTile(i);
+                board.removeTile(computerMove);
                 continue;
             }
 
