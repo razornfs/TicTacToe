@@ -25,16 +25,14 @@ public class Messages {
                                                "\nSystem.out.println(\" %s | %s | %s \");" +
                                                "\nSystem.out.println(\"   |   |   \");";
 
-    public static final String welcomingMessage = "    System.out.println(\"Welcome to Tic Tac Toe!\");\n" +
-                                                  "    System.out.println(\"You're playing as X\");";
-
     public static final String start = "import java.util.Scanner;\n" +
                                        "\n" +
                                        "public class TicTacToe {\n" +
+                                       "    private static int move = -1;\n" +
+                                       "    private static Scanner in = new Scanner(System.in);\n\n" +
                                        "    public static void main(String[] args) {\n" +
-                                       "    Scanner in = new Scanner(System.in);\n" +
-                                       "    int move = -1;\n" +
-                                       welcomingMessage;
+                                       "        System.out.println(\"Welcome to Tic Tac Toe!\");\n" +
+                                       "        System.out.println(\"You're playing as X\");";
 
 
     public static final String message = "\nSystem.out.println(\"Enter the number of your move\");" +
@@ -43,7 +41,7 @@ public class Messages {
                                          "\nSystem.out.println(\"3|4|5\");" +
                                          "\nSystem.out.println(\"-+-+-\");" +
                                          "\nSystem.out.println(\"6|7|8\");" +
-                                         "\nmove = Integer.parseInt(in.nextLine());" +
+                                         "\n\nmove = Integer.parseInt(in.nextLine());" +
                                          "\n";
 
 

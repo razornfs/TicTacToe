@@ -5,6 +5,15 @@ import java.util.Arrays;
 public class Board {
     private Tile[] board;
 
+    @Override
+    public String toString() {
+        Tile[][] arr = new Tile[3][3];
+        for (int i = 0; i < board.length; i++) {
+            arr[i / 3][i % 3] = board[i];
+        }
+        return Arrays.deepToString(arr);
+    }
+
     public Board() {
         board = new Tile[9];
         Arrays.fill(board, Tile.EMPTY);

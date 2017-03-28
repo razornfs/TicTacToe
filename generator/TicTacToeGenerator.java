@@ -1,37 +1,72 @@
 package com.tictactoe.generator;
 
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
+
 public class TicTacToeGenerator {
+
+    private List<String> methodBodies = new ArrayList<>();
+    private StringBuilder currentMethodBody = new StringBuilder();
+
     public void generate() {
         Board board = new Board();
-        System.out.println(Messages.start);
-        System.out.println(formattedBoard(board, 1));
-        System.out.println(formattedMessage(1));
-        printMove(board, 2);
-        System.out.println("    }\n}");
+        StringBuilder output = new StringBuilder();
+        output.append(Messages.start).append("\n");
+        output.append(formattedBoard(board, 2)).append("\n");
+        output.append(formattedMessage(2)).append("\n");
+        printMove(board, 3);
+        for (int i = 0; i < methodBodies.size(); i++) {
+            output.append(String.format("        method%d();", i + 1)).append("\n");
+        }
+        output.append("    }\n");
+        for (int i = 0; i < methodBodies.size(); i++) {
+            output.append(String.format("    static void method%d() {", i + 1)).append("\n");
+            output.append(methodBodies.get(i)).append("\n");
+            output.append("    }").append("\n");
+        }
+        output.append("}").append("\n");
+
+        try (PrintWriter out = new PrintWriter("TicTacToe.java")) {
+            out.println(output);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     private void printMove(Board board, int depth) {
         for (int i = 0; i < 9; i++) {
+            if (currentMethodBody.length() > 10000 && depth == 3) {
+                methodBodies.add(currentMethodBody.toString());
+                currentMethodBody = new StringBuilder();
+            }
             board = new Board(board);
             if (board.getTile(i) != Tile.EMPTY) {
                 continue;
             }
             board.placeTile(Tile.X, i);
-            System.out.println(indentLevel(depth) + String.format("if (move == %d) {", i));
-            System.out.println(formattedBoard(board, depth + 1));
+            appendIndented(0, indentLevel(depth) + String.format("if (move == %d) {", i));
 
             if (board.isWinner(Tile.X)) {
-                printIndented(depth + 1, "System.out.println(\"You win!\");");
-                printIndented(depth + 1, "System.exit(0);");
-                printIndented(depth, "}");
+                // if the OptimalPlayer algorithm is correct, this should never happen
+                appendIndented(depth + 1, "System.out.println(\"You win!\");");
+                appendIndented(0, formattedBoard(board, depth + 1));
+                appendIndented(depth + 1, "System.exit(0);");
+                appendIndented(depth, "}");
                 board.removeTile(i);
                 continue;
             }
 
             if (board.isFull()) {
-                printIndented(depth + 1, "System.out.println(\"It's a tie!\");");
-                printIndented(depth + 1, "System.exit(0);");
-                printIndented(depth, "}");
+                appendIndented(depth + 1, "System.out.println(\"It's a tie!\");");
+                appendIndented(0, formattedBoard(board, depth + 1));
+                appendIndented(depth + 1, "System.exit(0);");
+                appendIndented(depth, "}");
                 continue;
             }
 
@@ -39,23 +74,24 @@ public class TicTacToeGenerator {
             int computerMove = computer.getOptimalMove();
             board.placeTile(Tile.O, computerMove);
 
-            printIndented(depth + 1, "System.out.println(" + Messages.computerMoveMessages[computerMove] + ");");
-            System.out.println(formattedBoard(board, depth + 1));
+            appendIndented(depth + 1, "System.out.println(" + Messages.computerMoveMessages[computerMove] + ");");
+            appendIndented(0, formattedBoard(board, depth + 1));
 
             if (board.isWinner(Tile.O)) {
-                printIndented(depth + 1, "System.out.println(\"The computer wins!\");");
-                printIndented(depth + 1, "System.exit(0);");
-                printIndented(depth, "}");
+                appendIndented(depth + 1, "System.out.println(\"The computer wins!\");");
+                appendIndented(0, formattedBoard(board, depth + 1));
+                appendIndented(depth + 1, "System.exit(0);");
+                appendIndented(depth, "}");
                 board.removeTile(i);
                 board.removeTile(computerMove);
                 continue;
             }
 
-            System.out.println(formattedMessage(depth + 1));
+            appendIndented(0, formattedMessage(depth + 1));
             printMove(board, depth + 1);
             board.removeTile(i);
             board.removeTile(computerMove);
-            System.out.println(indentLevel(depth) + "}");
+            appendIndented(0, indentLevel(depth) + "}");
         }
     }
 
@@ -78,7 +114,7 @@ public class TicTacToeGenerator {
         return ret;
     }
 
-    private void printIndented(int level, String message) {
-        System.out.println(indentLevel(level) + message);
+    private void appendIndented(int level, String message) {
+        currentMethodBody.append(indentLevel(level)).append(message).append("\n");
     }
 }

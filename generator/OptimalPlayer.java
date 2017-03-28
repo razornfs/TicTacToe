@@ -38,8 +38,8 @@ public class OptimalPlayer {
         if (board.isFull()) {
             return 0;
         }
-        int bestScore = Integer.MIN_VALUE;
         if (isMaximizing) {
+            int bestScore = Integer.MIN_VALUE;
             for (int i = 0; i < 9; i++) {
                 if (board.getTile(i) == Tile.EMPTY) {
                     board.placeTile(tile, i);
@@ -47,29 +47,31 @@ public class OptimalPlayer {
                     board.removeTile(i);
                 }
             }
+            return bestScore;
         } else {
+            int bestScore = Integer.MAX_VALUE;
             for (int i = 0; i < 9; i++) {
                 if (board.getTile(i) == Tile.EMPTY) {
                     board.placeTile(opponent(tile), i);
-                    bestScore = Math.max(bestScore, minimax(depth + 1, true));
+                    bestScore = Math.min(bestScore, minimax(depth + 1, true));
                     board.removeTile(i);
                 }
             }
+            return bestScore;
         }
-        return bestScore;
     }
 
     private int evaluate() {
         if (tile != Tile.X && tile != Tile.O) {
             throw new IllegalArgumentException("Invalid player");
         }
-        if (!board.isWinner(Tile.X) && !board.isWinner(Tile.O)) {
-            return 0;
-        }
         if (board.isWinner(tile)) {
             return 10;
         }
-        return -10;
+        if (board.isWinner(opponent(tile))) {
+            return -10;
+        }
+        return 0;
     }
 
     private Tile opponent(Tile tile) {
