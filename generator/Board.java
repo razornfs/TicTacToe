@@ -2,37 +2,21 @@ package com.tictactoe.generator;
 
 import java.util.Arrays;
 
-public class Board {
+class Board {
     private Tile[] board;
 
-    @Override
-    public String toString() {
-        Tile[][] arr = new Tile[3][3];
-        for (int i = 0; i < board.length; i++) {
-            arr[i / 3][i % 3] = board[i];
-        }
-        return Arrays.deepToString(arr);
-    }
-
-    public Board() {
+    Board() {
         board = new Tile[9];
         Arrays.fill(board, Tile.EMPTY);
     }
 
-    public Board(Tile[] board) {
-        if (board.length != 9) {
-            throw new IllegalArgumentException();
-        }
-        this.board = board;
-    }
-
-    public Board(Board board) {
+    Board(Board board) {
         Tile[] copy = new Tile[board.board.length];
         System.arraycopy(board.board, 0, copy, 0, board.board.length);
         this.board = copy;
     }
 
-    public Tile getTile(int position) {
+    Tile getTile(int position) {
         if (!rangeCheck(position)) {
             throw new IllegalArgumentException();
         }
@@ -40,7 +24,7 @@ public class Board {
     }
 
     // returns false if the move is invalid
-    public boolean placeTile(Tile tile, int position) {
+    boolean placeTile(Tile tile, int position) {
         if (!isEmpty(position)) {
             return false;
         }
@@ -48,7 +32,7 @@ public class Board {
         return true;
     }
 
-    public boolean removeTile(int position) {
+    boolean removeTile(int position) {
         if (!rangeCheck(position)) {
             return false;
         }
@@ -64,7 +48,7 @@ public class Board {
         return position >= 0 && position < 9;
     }
 
-    public boolean isFull() {
+    boolean isFull() {
         for (Tile tile : board) {
             if (tile == Tile.EMPTY) {
                 return false;
@@ -73,7 +57,7 @@ public class Board {
         return true;
     }
 
-    public boolean isWinner(Tile tile) {
+    boolean isWinner(Tile tile) {
         return checkRows(tile) || checkColumns(tile) || checkDiagonals(tile);
     }
 

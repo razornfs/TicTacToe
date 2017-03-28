@@ -2,19 +2,15 @@ package com.tictactoe.generator;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TicTacToeGenerator {
+class TicTacToeGenerator {
 
     private List<String> methodBodies = new ArrayList<>();
     private StringBuilder currentMethodBody = new StringBuilder();
 
-    public void generate() {
+    void generate() {
         Board board = new Board();
         StringBuilder output = new StringBuilder();
         output.append(Messages.start).append("\n");

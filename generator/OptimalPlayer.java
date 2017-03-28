@@ -1,16 +1,16 @@
 package com.tictactoe.generator;
 
-public class OptimalPlayer {
+class OptimalPlayer {
 
     private Board board;
     private Tile tile;
 
-    public OptimalPlayer(Board board, Tile tile) {
+    OptimalPlayer(Board board, Tile tile) {
         this.board = board;
         this.tile = tile;
     }
 
-    public int getOptimalMove() {
+    int getOptimalMove() {
         int bestScore = Integer.MIN_VALUE;
         int bestMove = -1;
         for (int i = 0; i < 9; i++) {
