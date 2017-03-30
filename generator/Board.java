@@ -32,6 +32,10 @@ class Board {
         return true;
     }
 
+    int size() {
+        return board.length;
+    }
+
     boolean removeTile(int position) {
         if (!rangeCheck(position)) {
             return false;
