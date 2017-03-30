@@ -40,19 +40,19 @@ public class TicTacToe {
     }
     static void method1() {
 
-                while ((move < 0 || move >= 9)) {
+            while ((move < 0 || move >= 9)) {
+            
+                System.out.println("Invalid move!");
+                System.out.println("Enter the number of your move");
+                System.out.println("0|1|2");
+                System.out.println("-+-+-");
+                System.out.println("3|4|5");
+                System.out.println("-+-+-");
+                System.out.println("6|7|8");
                 
-                    System.out.println("Invalid move!");
-                    System.out.println("Enter the number of your move");
-                    System.out.println("0|1|2");
-                    System.out.println("-+-+-");
-                    System.out.println("3|4|5");
-                    System.out.println("-+-+-");
-                    System.out.println("6|7|8");
-                    
-                    move = Integer.parseInt(in.nextLine());
-                    
-                }
+                move = Integer.parseInt(in.nextLine());
+                
+            }
             if (move == 0) {
                 System.out.println("O moves on the center space.");
 
@@ -78,19 +78,19 @@ public class TicTacToe {
                 move = Integer.parseInt(in.nextLine());
                 
 
-                    while ((move < 0 || move >= 9 || move == 0 || move == 4)) {
+                while ((move < 0 || move >= 9 || move == 0 || move == 4)) {
+                
+                    System.out.println("Invalid move!");
+                    System.out.println("Enter the number of your move");
+                    System.out.println("0|1|2");
+                    System.out.println("-+-+-");
+                    System.out.println("3|4|5");
+                    System.out.println("-+-+-");
+                    System.out.println("6|7|8");
                     
-                        System.out.println("Invalid move!");
-                        System.out.println("Enter the number of your move");
-                        System.out.println("0|1|2");
-                        System.out.println("-+-+-");
-                        System.out.println("3|4|5");
-                        System.out.println("-+-+-");
-                        System.out.println("6|7|8");
-                        
-                        move = Integer.parseInt(in.nextLine());
-                        
-                    }
+                    move = Integer.parseInt(in.nextLine());
+                    
+                }
                 if (move == 1) {
                     System.out.println("O moves on the top-right space.");
 
@@ -116,19 +116,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 3) {
                         System.out.println("O moves on the bottom-left space.");
 
@@ -212,19 +212,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 5) {
                             System.out.println("O moves on the bottom space.");
 
@@ -250,19 +250,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -423,19 +423,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 3) {
                         System.out.println("O moves on the bottom space.");
 
@@ -548,19 +548,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 5) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -586,19 +586,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -730,19 +730,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 6)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 6)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the top-right space.");
 
@@ -797,19 +797,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 5) {
                             System.out.println("O moves on the bottom space.");
 
@@ -864,19 +864,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -1037,19 +1037,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 5)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 5)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 2) {
                         System.out.println("O moves on the bottom space.");
 
@@ -1162,19 +1162,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -1200,19 +1200,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -1344,19 +1344,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 6)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 6)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the right space.");
 
@@ -1440,19 +1440,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the bottom space.");
 
@@ -1507,19 +1507,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 2) {
                                 System.out.println("It's a tie!");
 
@@ -1651,19 +1651,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 7)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 7)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the right space.");
 
@@ -1747,19 +1747,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -1814,19 +1814,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 1) {
                                 System.out.println("It's a tie!");
 
@@ -1958,19 +1958,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 8)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 8)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 2) {
                         System.out.println("O moves on the bottom space.");
 
@@ -2112,19 +2112,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the right space.");
 
@@ -2150,19 +2150,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -2269,19 +2269,19 @@ public class TicTacToe {
                 move = Integer.parseInt(in.nextLine());
                 
 
-                    while ((move < 0 || move >= 9 || move == 0 || move == 1)) {
+                while ((move < 0 || move >= 9 || move == 0 || move == 1)) {
+                
+                    System.out.println("Invalid move!");
+                    System.out.println("Enter the number of your move");
+                    System.out.println("0|1|2");
+                    System.out.println("-+-+-");
+                    System.out.println("3|4|5");
+                    System.out.println("-+-+-");
+                    System.out.println("6|7|8");
                     
-                        System.out.println("Invalid move!");
-                        System.out.println("Enter the number of your move");
-                        System.out.println("0|1|2");
-                        System.out.println("-+-+-");
-                        System.out.println("3|4|5");
-                        System.out.println("-+-+-");
-                        System.out.println("6|7|8");
-                        
-                        move = Integer.parseInt(in.nextLine());
-                        
-                    }
+                    move = Integer.parseInt(in.nextLine());
+                    
+                }
                 if (move == 2) {
                     System.out.println("O moves on the left space.");
 
@@ -2307,19 +2307,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 4) {
                         System.out.println("O moves on the bottom-left space.");
 
@@ -2403,19 +2403,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 5) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -2588,19 +2588,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 2) {
                         System.out.println("O moves on the bottom-right space.");
 
@@ -2742,19 +2742,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 5) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -2809,19 +2809,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -2895,19 +2895,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 7)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 7)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 2) {
                         System.out.println("O moves on the bottom-left space.");
 
@@ -2933,19 +2933,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -3059,19 +3059,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -3097,19 +3097,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -3152,19 +3152,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -3207,19 +3207,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -3263,19 +3263,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -3330,19 +3330,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -3415,19 +3415,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the right space.");
 
@@ -3453,19 +3453,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -3508,19 +3508,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -3563,19 +3563,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -3619,19 +3619,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the right space.");
 
@@ -3657,19 +3657,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -3712,19 +3712,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -3767,19 +3767,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -3824,19 +3824,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 5 || move == 6)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 5 || move == 6)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 2) {
                         System.out.println("O moves on the left space.");
 
@@ -3891,19 +3891,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -4105,19 +4105,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 2) {
                         System.out.println("O moves on the bottom-right space.");
 
@@ -4259,19 +4259,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the right space.");
 
@@ -4297,19 +4297,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -4352,19 +4352,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -4407,19 +4407,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -4464,19 +4464,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 7)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 7)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 2) {
                         System.out.println("O moves on the bottom-right space.");
 
@@ -4618,19 +4618,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the left space.");
 
@@ -4745,19 +4745,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 8)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 8)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 2) {
                         System.out.println("O moves on the right space.");
 
@@ -4783,19 +4783,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -4821,19 +4821,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 7) {
                                 System.out.println("It's a tie!");
 
@@ -4935,19 +4935,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 5) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -5002,19 +5002,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -5087,19 +5087,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -5154,19 +5154,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -5239,19 +5239,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the right space.");
 
@@ -5277,19 +5277,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -5332,19 +5332,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -5387,19 +5387,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -5443,19 +5443,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the left space.");
 
@@ -5574,19 +5574,19 @@ public class TicTacToe {
                 move = Integer.parseInt(in.nextLine());
                 
 
-                    while ((move < 0 || move >= 9 || move == 2 || move == 4)) {
+                while ((move < 0 || move >= 9 || move == 2 || move == 4)) {
+                
+                    System.out.println("Invalid move!");
+                    System.out.println("Enter the number of your move");
+                    System.out.println("0|1|2");
+                    System.out.println("-+-+-");
+                    System.out.println("3|4|5");
+                    System.out.println("-+-+-");
+                    System.out.println("6|7|8");
                     
-                        System.out.println("Invalid move!");
-                        System.out.println("Enter the number of your move");
-                        System.out.println("0|1|2");
-                        System.out.println("-+-+-");
-                        System.out.println("3|4|5");
-                        System.out.println("-+-+-");
-                        System.out.println("6|7|8");
-                        
-                        move = Integer.parseInt(in.nextLine());
-                        
-                    }
+                    move = Integer.parseInt(in.nextLine());
+                    
+                }
                 if (move == 0) {
                     System.out.println("O moves on the top space.");
 
@@ -5612,19 +5612,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 3) {
                         System.out.println("O moves on the bottom space.");
 
@@ -5737,19 +5737,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 5) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -5775,19 +5775,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -5919,19 +5919,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 3) {
                         System.out.println("O moves on the bottom-right space.");
 
@@ -6073,19 +6073,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -6111,19 +6111,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 7) {
                                 System.out.println("It's a tie!");
 
@@ -6226,19 +6226,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the bottom-right space.");
 
@@ -6380,19 +6380,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -6418,19 +6418,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 7) {
                                 System.out.println("It's a tie!");
 
@@ -6473,19 +6473,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 1) {
                                 System.out.println("It's a tie!");
 
@@ -6528,19 +6528,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 1) {
                                 System.out.println("It's a tie!");
 
@@ -6585,19 +6585,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 2 || move == 4 || move == 5 || move == 8)) {
+                    while ((move < 0 || move >= 9 || move == 2 || move == 4 || move == 5 || move == 8)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 0) {
                         System.out.println("O moves on the top space.");
 
@@ -6623,19 +6623,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the bottom space.");
 
@@ -6719,19 +6719,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -6892,19 +6892,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 4 || move == 6)) {
+                    while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 4 || move == 6)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 0) {
                         System.out.println("O moves on the bottom space.");
 
@@ -7017,19 +7017,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the left space.");
 
@@ -7055,19 +7055,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -7199,19 +7199,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 2 || move == 3 || move == 4 || move == 7)) {
+                    while ((move < 0 || move >= 9 || move == 2 || move == 3 || move == 4 || move == 7)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 0) {
                         System.out.println("O moves on the right space.");
 
@@ -7295,19 +7295,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the top space.");
 
@@ -7333,19 +7333,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -7506,19 +7506,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 2 || move == 4 || move == 5 || move == 8)) {
+                    while ((move < 0 || move >= 9 || move == 2 || move == 4 || move == 5 || move == 8)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 0) {
                         System.out.println("O moves on the left space.");
 
@@ -7602,19 +7602,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -7640,19 +7640,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 7) {
                                 System.out.println("It's a tie!");
 
@@ -7695,19 +7695,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 1) {
                                 System.out.println("It's a tie!");
 
@@ -7750,19 +7750,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 1) {
                                 System.out.println("It's a tie!");
 
@@ -7869,19 +7869,19 @@ public class TicTacToe {
                 move = Integer.parseInt(in.nextLine());
                 
 
-                    while ((move < 0 || move >= 9 || move == 0 || move == 3)) {
+                while ((move < 0 || move >= 9 || move == 0 || move == 3)) {
+                
+                    System.out.println("Invalid move!");
+                    System.out.println("Enter the number of your move");
+                    System.out.println("0|1|2");
+                    System.out.println("-+-+-");
+                    System.out.println("3|4|5");
+                    System.out.println("-+-+-");
+                    System.out.println("6|7|8");
                     
-                        System.out.println("Invalid move!");
-                        System.out.println("Enter the number of your move");
-                        System.out.println("0|1|2");
-                        System.out.println("-+-+-");
-                        System.out.println("3|4|5");
-                        System.out.println("-+-+-");
-                        System.out.println("6|7|8");
-                        
-                        move = Integer.parseInt(in.nextLine());
-                        
-                    }
+                    move = Integer.parseInt(in.nextLine());
+                    
+                }
                 if (move == 1) {
                     System.out.println("O moves on the center space.");
 
@@ -7907,19 +7907,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 2) {
                         System.out.println("O moves on the bottom-right space.");
 
@@ -8061,19 +8061,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 5) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -8128,19 +8128,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -8214,19 +8214,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the bottom-right space.");
 
@@ -8368,19 +8368,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -8406,19 +8406,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 7) {
                                 System.out.println("It's a tie!");
 
@@ -8461,19 +8461,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 1) {
                                 System.out.println("It's a tie!");
 
@@ -8516,19 +8516,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 1) {
                                 System.out.println("It's a tie!");
 
@@ -8573,19 +8573,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 5)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 5)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the bottom space.");
 
@@ -8611,19 +8611,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -8649,19 +8649,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -8704,19 +8704,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -8759,19 +8759,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -8815,19 +8815,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom space.");
 
@@ -8853,19 +8853,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -8908,19 +8908,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -8963,19 +8963,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 7) {
                                 System.out.println("It's a tie!");
 
@@ -9019,19 +9019,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -9145,19 +9145,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -9183,19 +9183,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -9297,19 +9297,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -9335,19 +9335,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 7) {
                                 System.out.println("It's a tie!");
 
@@ -9450,19 +9450,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 5)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 5)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the bottom-right space.");
 
@@ -9604,19 +9604,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -9731,19 +9731,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 6)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 6)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 2) {
                         System.out.println("O moves on the center space.");
 
@@ -9769,19 +9769,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 5) {
                             System.out.println("O moves on the bottom space.");
 
@@ -10012,19 +10012,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 7)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 7)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the center space.");
 
@@ -10050,19 +10050,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 5) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -10293,19 +10293,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 8)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 8)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the center space.");
 
@@ -10331,19 +10331,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 5) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -10398,19 +10398,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -10604,19 +10604,19 @@ public class TicTacToe {
                 move = Integer.parseInt(in.nextLine());
                 
 
-                    while ((move < 0 || move >= 9 || move == 0 || move == 4)) {
+                while ((move < 0 || move >= 9 || move == 0 || move == 4)) {
+                
+                    System.out.println("Invalid move!");
+                    System.out.println("Enter the number of your move");
+                    System.out.println("0|1|2");
+                    System.out.println("-+-+-");
+                    System.out.println("3|4|5");
+                    System.out.println("-+-+-");
+                    System.out.println("6|7|8");
                     
-                        System.out.println("Invalid move!");
-                        System.out.println("Enter the number of your move");
-                        System.out.println("0|1|2");
-                        System.out.println("-+-+-");
-                        System.out.println("3|4|5");
-                        System.out.println("-+-+-");
-                        System.out.println("6|7|8");
-                        
-                        move = Integer.parseInt(in.nextLine());
-                        
-                    }
+                    move = Integer.parseInt(in.nextLine());
+                    
+                }
                 if (move == 1) {
                     System.out.println("O moves on the bottom space.");
 
@@ -10642,19 +10642,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 7)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 7)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 2) {
                         System.out.println("O moves on the bottom-left space.");
 
@@ -10680,19 +10680,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -10806,19 +10806,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -10844,19 +10844,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -10899,19 +10899,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -10954,19 +10954,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -11010,19 +11010,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -11077,19 +11077,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -11162,19 +11162,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the right space.");
 
@@ -11200,19 +11200,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -11255,19 +11255,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -11310,19 +11310,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -11366,19 +11366,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the right space.");
 
@@ -11404,19 +11404,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -11459,19 +11459,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -11514,19 +11514,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -11571,19 +11571,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 4 || move == 6)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 4 || move == 6)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the left space.");
 
@@ -11638,19 +11638,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom space.");
 
@@ -11676,19 +11676,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -11731,19 +11731,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -11786,19 +11786,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 7) {
                                 System.out.println("It's a tie!");
 
@@ -11930,19 +11930,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 5)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 5)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the bottom space.");
 
@@ -11968,19 +11968,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -12006,19 +12006,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -12061,19 +12061,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -12116,19 +12116,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -12172,19 +12172,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom space.");
 
@@ -12210,19 +12210,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -12265,19 +12265,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -12320,19 +12320,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 7) {
                                 System.out.println("It's a tie!");
 
@@ -12376,19 +12376,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -12502,19 +12502,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -12540,19 +12540,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -12654,19 +12654,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -12692,19 +12692,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 7) {
                                 System.out.println("It's a tie!");
 
@@ -12807,19 +12807,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 5)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 5)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the bottom-left space.");
 
@@ -12903,19 +12903,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom space.");
 
@@ -12941,19 +12941,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -13114,19 +13114,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 4 || move == 6)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 4 || move == 6)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the bottom space.");
 
@@ -13152,19 +13152,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the right space.");
 
@@ -13190,19 +13190,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -13245,19 +13245,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -13300,19 +13300,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -13473,19 +13473,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 7)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 7)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 2) {
                         System.out.println("O moves on the bottom-left space.");
 
@@ -13511,19 +13511,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the right space.");
 
@@ -13549,19 +13549,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -13780,19 +13780,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 4 || move == 8)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 4 || move == 8)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the bottom space.");
 
@@ -13818,19 +13818,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the right space.");
 
@@ -13856,19 +13856,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -13911,19 +13911,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -13966,19 +13966,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -14143,19 +14143,19 @@ public class TicTacToe {
                 move = Integer.parseInt(in.nextLine());
                 
 
-                    while ((move < 0 || move >= 9 || move == 2 || move == 5)) {
+                while ((move < 0 || move >= 9 || move == 2 || move == 5)) {
+                
+                    System.out.println("Invalid move!");
+                    System.out.println("Enter the number of your move");
+                    System.out.println("0|1|2");
+                    System.out.println("-+-+-");
+                    System.out.println("3|4|5");
+                    System.out.println("-+-+-");
+                    System.out.println("6|7|8");
                     
-                        System.out.println("Invalid move!");
-                        System.out.println("Enter the number of your move");
-                        System.out.println("0|1|2");
-                        System.out.println("-+-+-");
-                        System.out.println("3|4|5");
-                        System.out.println("-+-+-");
-                        System.out.println("6|7|8");
-                        
-                        move = Integer.parseInt(in.nextLine());
-                        
-                    }
+                    move = Integer.parseInt(in.nextLine());
+                    
+                }
                 if (move == 0) {
                     System.out.println("O moves on the left space.");
 
@@ -14181,19 +14181,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 5)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 5)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the center space.");
 
@@ -14219,19 +14219,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 6) {
                             System.out.println("O moves on the bottom space.");
 
@@ -14257,19 +14257,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -14371,19 +14371,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom space.");
 
@@ -14409,19 +14409,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -14464,19 +14464,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 7) {
                                 System.out.println("It's a tie!");
 
@@ -14519,19 +14519,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -14575,19 +14575,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom space.");
 
@@ -14613,19 +14613,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -14668,19 +14668,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 1) {
                                 System.out.println("It's a tie!");
 
@@ -14723,19 +14723,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 1) {
                                 System.out.println("It's a tie!");
 
@@ -14779,19 +14779,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -14846,19 +14846,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 1) {
                                 System.out.println("It's a tie!");
 
@@ -14931,19 +14931,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -14998,19 +14998,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 1) {
                                 System.out.println("It's a tie!");
 
@@ -15084,19 +15084,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 5)) {
+                    while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 5)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 0) {
                         System.out.println("O moves on the center space.");
 
@@ -15122,19 +15122,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 6) {
                             System.out.println("O moves on the bottom space.");
 
@@ -15160,19 +15160,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -15274,19 +15274,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -15312,19 +15312,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -15367,19 +15367,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -15422,19 +15422,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -15478,19 +15478,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the bottom space.");
 
@@ -15516,19 +15516,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -15571,19 +15571,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 0) {
                                 System.out.println("It's a tie!");
 
@@ -15626,19 +15626,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 0) {
                                 System.out.println("It's a tie!");
 
@@ -15682,19 +15682,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -15749,19 +15749,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 0) {
                                 System.out.println("It's a tie!");
 
@@ -15834,19 +15834,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 5 || move == 6 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 5 || move == 6 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the center space.");
 
@@ -15961,19 +15961,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 2 || move == 3 || move == 4 || move == 5)) {
+                    while ((move < 0 || move >= 9 || move == 2 || move == 3 || move == 4 || move == 5)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 0) {
                         System.out.println("O moves on the bottom-left space.");
 
@@ -16057,19 +16057,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -16242,19 +16242,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 2 || move == 3 || move == 4 || move == 5)) {
+                    while ((move < 0 || move >= 9 || move == 2 || move == 3 || move == 4 || move == 5)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 0) {
                         System.out.println("O moves on the bottom-right space.");
 
@@ -16280,19 +16280,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom space.");
 
@@ -16318,19 +16318,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -16373,19 +16373,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 7) {
                                 System.out.println("It's a tie!");
 
@@ -16428,19 +16428,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -16484,19 +16484,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -16522,19 +16522,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -16577,19 +16577,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -16632,19 +16632,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -16688,19 +16688,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom space.");
 
@@ -16726,19 +16726,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -16840,19 +16840,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -16878,19 +16878,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 6) {
                                 System.out.println("It's a tie!");
 
@@ -16992,19 +16992,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 3 || move == 4 || move == 5 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -17119,19 +17119,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 5 || move == 6)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 5 || move == 6)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the center space.");
 
@@ -17157,19 +17157,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -17253,19 +17253,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -17426,19 +17426,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 5 || move == 7)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 5 || move == 7)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the center space.");
 
@@ -17464,19 +17464,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the bottom-left space.");
 
@@ -17707,19 +17707,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 5 || move == 8)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 2 || move == 5 || move == 8)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the bottom-left space.");
 
@@ -17745,19 +17745,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 5 || move == 6 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 5 || move == 6 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the center space.");
 
@@ -17992,19 +17992,19 @@ public class TicTacToe {
                 move = Integer.parseInt(in.nextLine());
                 
 
-                    while ((move < 0 || move >= 9 || move == 4 || move == 6)) {
+                while ((move < 0 || move >= 9 || move == 4 || move == 6)) {
+                
+                    System.out.println("Invalid move!");
+                    System.out.println("Enter the number of your move");
+                    System.out.println("0|1|2");
+                    System.out.println("-+-+-");
+                    System.out.println("3|4|5");
+                    System.out.println("-+-+-");
+                    System.out.println("6|7|8");
                     
-                        System.out.println("Invalid move!");
-                        System.out.println("Enter the number of your move");
-                        System.out.println("0|1|2");
-                        System.out.println("-+-+-");
-                        System.out.println("3|4|5");
-                        System.out.println("-+-+-");
-                        System.out.println("6|7|8");
-                        
-                        move = Integer.parseInt(in.nextLine());
-                        
-                    }
+                    move = Integer.parseInt(in.nextLine());
+                    
+                }
                 if (move == 0) {
                     System.out.println("O moves on the left space.");
 
@@ -18030,19 +18030,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 6)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 6)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the right space.");
 
@@ -18126,19 +18126,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the bottom space.");
 
@@ -18193,19 +18193,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 2) {
                                 System.out.println("It's a tie!");
 
@@ -18337,19 +18337,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 2) {
                         System.out.println("O moves on the bottom-right space.");
 
@@ -18491,19 +18491,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the right space.");
 
@@ -18529,19 +18529,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -18584,19 +18584,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -18639,19 +18639,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -18696,19 +18696,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 4 || move == 6)) {
+                    while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 4 || move == 6)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 0) {
                         System.out.println("O moves on the bottom space.");
 
@@ -18821,19 +18821,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the left space.");
 
@@ -18859,19 +18859,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -19003,19 +19003,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 6)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 6)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 1) {
                         System.out.println("O moves on the bottom-right space.");
 
@@ -19157,19 +19157,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the top-right space.");
 
@@ -19195,19 +19195,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -19310,19 +19310,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 1 || move == 4 || move == 5 || move == 6)) {
+                    while ((move < 0 || move >= 9 || move == 1 || move == 4 || move == 5 || move == 6)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 0) {
                         System.out.println("O moves on the bottom space.");
 
@@ -19435,19 +19435,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the left space.");
 
@@ -19473,19 +19473,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 2) {
                                 System.out.println("It's a tie!");
 
@@ -19617,19 +19617,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                    while ((move < 0 || move >= 9 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 0) {
                         System.out.println("O moves on the left space.");
 
@@ -19655,19 +19655,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 1) {
                             System.out.println("O moves on the right space.");
 
@@ -19751,19 +19751,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 2) {
                                 System.out.println("It's a tie!");
 
@@ -19924,19 +19924,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                    while ((move < 0 || move >= 9 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 0) {
                         System.out.println("O moves on the top space.");
 
@@ -19991,19 +19991,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the right space.");
 
@@ -20029,19 +20029,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -20084,19 +20084,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -20139,19 +20139,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -20287,19 +20287,19 @@ public class TicTacToe {
                 move = Integer.parseInt(in.nextLine());
                 
 
-                    while ((move < 0 || move >= 9 || move == 1 || move == 7)) {
+                while ((move < 0 || move >= 9 || move == 1 || move == 7)) {
+                
+                    System.out.println("Invalid move!");
+                    System.out.println("Enter the number of your move");
+                    System.out.println("0|1|2");
+                    System.out.println("-+-+-");
+                    System.out.println("3|4|5");
+                    System.out.println("-+-+-");
+                    System.out.println("6|7|8");
                     
-                        System.out.println("Invalid move!");
-                        System.out.println("Enter the number of your move");
-                        System.out.println("0|1|2");
-                        System.out.println("-+-+-");
-                        System.out.println("3|4|5");
-                        System.out.println("-+-+-");
-                        System.out.println("6|7|8");
-                        
-                        move = Integer.parseInt(in.nextLine());
-                        
-                    }
+                    move = Integer.parseInt(in.nextLine());
+                    
+                }
                 if (move == 0) {
                     System.out.println("O moves on the bottom-left space.");
 
@@ -20325,19 +20325,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 6 || move == 7)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 6 || move == 7)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 2) {
                         System.out.println("O moves on the center space.");
 
@@ -20363,19 +20363,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the right space.");
 
@@ -20401,19 +20401,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -20456,19 +20456,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -20511,19 +20511,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -20567,19 +20567,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the right space.");
 
@@ -20605,19 +20605,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -20719,19 +20719,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the left space.");
 
@@ -20757,19 +20757,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -20812,19 +20812,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 2) {
                                 System.out.println("It's a tie!");
 
@@ -20867,19 +20867,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 2) {
                                 System.out.println("It's a tie!");
 
@@ -20923,19 +20923,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -20961,19 +20961,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -21075,19 +21075,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the right space.");
 
@@ -21113,19 +21113,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -21228,19 +21228,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 6 || move == 7)) {
+                    while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 6 || move == 7)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 0) {
                         System.out.println("O moves on the center space.");
 
@@ -21266,19 +21266,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the right space.");
 
@@ -21304,19 +21304,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -21359,19 +21359,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -21414,19 +21414,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -21470,19 +21470,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the right space.");
 
@@ -21508,19 +21508,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -21563,19 +21563,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 0) {
                                 System.out.println("It's a tie!");
 
@@ -21618,19 +21618,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 0) {
                                 System.out.println("It's a tie!");
 
@@ -21674,19 +21674,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the right space.");
 
@@ -21712,19 +21712,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -21826,19 +21826,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the left space.");
 
@@ -21864,19 +21864,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 4) {
                                 System.out.println("It's a tie!");
 
@@ -21919,19 +21919,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 0) {
                                 System.out.println("It's a tie!");
 
@@ -21974,19 +21974,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 0) {
                                 System.out.println("It's a tie!");
 
@@ -22030,19 +22030,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the center space.");
 
@@ -22068,19 +22068,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -22123,19 +22123,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 4) {
                                 System.out.println("It's a tie!");
 
@@ -22178,19 +22178,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -22235,19 +22235,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 1 || move == 3 || move == 6 || move == 7)) {
+                    while ((move < 0 || move >= 9 || move == 1 || move == 3 || move == 6 || move == 7)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 0) {
                         System.out.println("O moves on the center space.");
 
@@ -22273,19 +22273,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the right space.");
 
@@ -22311,19 +22311,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -22425,19 +22425,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the right space.");
 
@@ -22463,19 +22463,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -22518,19 +22518,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 0) {
                                 System.out.println("It's a tie!");
 
@@ -22573,19 +22573,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 0) {
                                 System.out.println("It's a tie!");
 
@@ -22629,19 +22629,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -22667,19 +22667,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 2) {
                                 System.out.println("It's a tie!");
 
@@ -22722,19 +22722,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -22777,19 +22777,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 2) {
                                 System.out.println("It's a tie!");
 
@@ -22833,19 +22833,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the top-right space.");
 
@@ -22900,19 +22900,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 0) {
                                 System.out.println("It's a tie!");
 
@@ -22985,19 +22985,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the center space.");
 
@@ -23112,19 +23112,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 7)) {
+                    while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 7)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 2) {
                         System.out.println("O moves on the bottom-left space.");
 
@@ -23150,19 +23150,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 3) {
                             System.out.println("O moves on the right space.");
 
@@ -23188,19 +23188,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 8) {
                                 System.out.println("It's a tie!");
 
@@ -23419,19 +23419,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 1 || move == 5 || move == 6 || move == 7)) {
+                    while ((move < 0 || move >= 9 || move == 1 || move == 5 || move == 6 || move == 7)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 0) {
                         System.out.println("O moves on the center space.");
 
@@ -23457,19 +23457,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -23495,19 +23495,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -23609,19 +23609,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the left space.");
 
@@ -23647,19 +23647,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 4) {
                                 System.out.println("It's a tie!");
 
@@ -23702,19 +23702,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 0) {
                                 System.out.println("It's a tie!");
 
@@ -23757,19 +23757,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 0) {
                                 System.out.println("It's a tie!");
 
@@ -23813,19 +23813,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the top-right space.");
 
@@ -23880,19 +23880,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 0) {
                                 System.out.println("It's a tie!");
 
@@ -23965,19 +23965,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the bottom-right space.");
 
@@ -24003,19 +24003,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 2) {
                                 System.out.println("It's a tie!");
 
@@ -24117,19 +24117,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the center space.");
 
@@ -24244,19 +24244,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 1 || move == 6 || move == 7 || move == 8)) {
+                    while ((move < 0 || move >= 9 || move == 1 || move == 6 || move == 7 || move == 8)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 0) {
                         System.out.println("O moves on the left space.");
 
@@ -24282,19 +24282,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the center space.");
 
@@ -24320,19 +24320,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -24375,19 +24375,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -24430,19 +24430,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 4) {
                                 System.out.println("It's a tie!");
 
@@ -24486,19 +24486,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the left space.");
 
@@ -24524,19 +24524,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 5) {
                                 System.out.println("It's a tie!");
 
@@ -24638,19 +24638,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 3 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the center space.");
 
@@ -24764,19 +24764,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the right space.");
 
@@ -24890,19 +24890,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the center space.");
 
@@ -25017,19 +25017,19 @@ public class TicTacToe {
                     move = Integer.parseInt(in.nextLine());
                     
 
-                        while ((move < 0 || move >= 9 || move == 1 || move == 6 || move == 7 || move == 8)) {
+                    while ((move < 0 || move >= 9 || move == 1 || move == 6 || move == 7 || move == 8)) {
+                    
+                        System.out.println("Invalid move!");
+                        System.out.println("Enter the number of your move");
+                        System.out.println("0|1|2");
+                        System.out.println("-+-+-");
+                        System.out.println("3|4|5");
+                        System.out.println("-+-+-");
+                        System.out.println("6|7|8");
                         
-                            System.out.println("Invalid move!");
-                            System.out.println("Enter the number of your move");
-                            System.out.println("0|1|2");
-                            System.out.println("-+-+-");
-                            System.out.println("3|4|5");
-                            System.out.println("-+-+-");
-                            System.out.println("6|7|8");
-                            
-                            move = Integer.parseInt(in.nextLine());
-                            
-                        }
+                        move = Integer.parseInt(in.nextLine());
+                        
+                    }
                     if (move == 0) {
                         System.out.println("O moves on the center space.");
 
@@ -25055,19 +25055,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the right space.");
 
@@ -25093,19 +25093,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -25207,19 +25207,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the center space.");
 
@@ -25245,19 +25245,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -25300,19 +25300,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 3 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 4) {
                                 System.out.println("It's a tie!");
 
@@ -25355,19 +25355,19 @@ public class TicTacToe {
                             move = Integer.parseInt(in.nextLine());
                             
 
-                                while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 2 || move == 4 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                            
+                                System.out.println("Invalid move!");
+                                System.out.println("Enter the number of your move");
+                                System.out.println("0|1|2");
+                                System.out.println("-+-+-");
+                                System.out.println("3|4|5");
+                                System.out.println("-+-+-");
+                                System.out.println("6|7|8");
                                 
-                                    System.out.println("Invalid move!");
-                                    System.out.println("Enter the number of your move");
-                                    System.out.println("0|1|2");
-                                    System.out.println("-+-+-");
-                                    System.out.println("3|4|5");
-                                    System.out.println("-+-+-");
-                                    System.out.println("6|7|8");
-                                    
-                                    move = Integer.parseInt(in.nextLine());
-                                    
-                                }
+                                move = Integer.parseInt(in.nextLine());
+                                
+                            }
                             if (move == 3) {
                                 System.out.println("It's a tie!");
 
@@ -25411,19 +25411,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 3 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the center space.");
 
@@ -25537,19 +25537,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 0 || move == 1 || move == 4 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 2) {
                             System.out.println("O moves on the left space.");
 
@@ -25663,19 +25663,19 @@ public class TicTacToe {
                         move = Integer.parseInt(in.nextLine());
                         
 
-                            while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                        while ((move < 0 || move >= 9 || move == 1 || move == 2 || move == 5 || move == 6 || move == 7 || move == 8)) {
+                        
+                            System.out.println("Invalid move!");
+                            System.out.println("Enter the number of your move");
+                            System.out.println("0|1|2");
+                            System.out.println("-+-+-");
+                            System.out.println("3|4|5");
+                            System.out.println("-+-+-");
+                            System.out.println("6|7|8");
                             
-                                System.out.println("Invalid move!");
-                                System.out.println("Enter the number of your move");
-                                System.out.println("0|1|2");
-                                System.out.println("-+-+-");
-                                System.out.println("3|4|5");
-                                System.out.println("-+-+-");
-                                System.out.println("6|7|8");
-                                
-                                move = Integer.parseInt(in.nextLine());
-                                
-                            }
+                            move = Integer.parseInt(in.nextLine());
+                            
+                        }
                         if (move == 0) {
                             System.out.println("O moves on the center space.");
 

@@ -13,6 +13,7 @@ class Messages {
             "\"O moves on the bottom space.\"",
             "\"O moves on the bottom-right space.\"",
             };
+
     static final String boardTemplate = "\nSystem.out.println(\"   |   |   \");" +
                                         "\nSystem.out.println(\" %s | %s | %s \");" +
                                         "\nSystem.out.println(\"   |   |   \");" +
@@ -34,7 +35,6 @@ class Messages {
                                 "        System.out.println(\"Welcome to Tic Tac Toe!\");\n" +
                                 "        System.out.println(\"You're playing as X\");";
 
-
     static final String message = "\nSystem.out.println(\"Enter the number of your move\");" +
                                   "\nSystem.out.println(\"0|1|2\");" +
                                   "\nSystem.out.println(\"-+-+-\");" +
@@ -43,6 +43,7 @@ class Messages {
                                   "\nSystem.out.println(\"6|7|8\");" +
                                   "\n\nmove = Integer.parseInt(in.nextLine());" +
                                   "\n";
+
     static final String moveValidationTemplate = "\nwhile (%s) {\n" +
                                                  "\n    System.out.println(\"Invalid move!\");" +
                                                  message.replaceAll("\n", "\n    ") +

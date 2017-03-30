@@ -36,9 +36,7 @@ class TicTacToeGenerator {
     }
 
     private void printMove(Board board, int depth) {
-        List<Integer> filledTiles = getFilledTiles(board);
-        String condition = formattedCondition(filledTiles);
-        appendIndented(0, printMoveValidation(condition, depth + 1));
+        printMoveValidation(board, depth);
         for (int i = 0; i < 9; i++) {
             if (currentMethodBody.length() > 10000 && depth == 3) {
                 methodBodies.add(currentMethodBody.toString());
@@ -94,6 +92,22 @@ class TicTacToeGenerator {
         }
     }
 
+    private void printMoveValidation(Board board, int depth) {
+        List<Integer> filledTiles = getFilledTiles(board);
+        String condition = formattedCondition(filledTiles);
+        appendIndented(0, formattedMoveValidation(condition, depth));
+    }
+
+    private List<Integer> getFilledTiles(Board board) {
+        List<Integer> emptyTiles = new ArrayList<>();
+        for (int i = 0; i < board.size(); i++) {
+            if (board.getTile(i) != Tile.EMPTY) {
+                emptyTiles.add(i);
+            }
+        }
+        return emptyTiles;
+    }
+
     private String formattedCondition(List<Integer> emptyTiles) {
         String ret = "";
         int size = emptyTiles.size();
@@ -107,14 +121,8 @@ class TicTacToeGenerator {
         return "(move < 0 || move >= 9 || " + ret + ")";
     }
 
-    private List<Integer> getFilledTiles(Board board) {
-        List<Integer> emptyTiles = new ArrayList<>();
-        for (int i = 0; i < board.size(); i++) {
-            if (board.getTile(i) != Tile.EMPTY) {
-                emptyTiles.add(i);
-            }
-        }
-        return emptyTiles;
+    private String formattedMoveValidation(String condition, int depth) {
+        return String.format(Messages.moveValidationTemplate.replaceAll("\n", "\n" + indentLevel(depth)), condition);
     }
 
     private String formattedBoard(Board board, int depth) {
@@ -126,10 +134,6 @@ class TicTacToeGenerator {
 
     private String formattedMessage(int depth) {
         return Messages.message.replaceAll("\n", "\n" + indentLevel(depth));
-    }
-
-    private String printMoveValidation(String condition, int depth) {
-        return String.format(Messages.moveValidationTemplate.replaceAll("\n", "\n" + indentLevel(depth)), condition);
     }
 
     private String indentLevel(int level) {
