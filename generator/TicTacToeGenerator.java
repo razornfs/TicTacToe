@@ -128,10 +128,10 @@ class TicTacToeGenerator {
             return "(move < 0 || move >= 9)";
         }
         for (Integer emptyTile : emptyTiles.subList(0, size - 1)) {
-            ret += ("move == " + emptyTile + " || ");
+            ret += String.format("move == %d || ", emptyTile);
         }
-        ret += "move == " + emptyTiles.get(size - 1);
-        return "(move < 0 || move >= 9 || " + ret + ")";
+        ret += String.format("move == %d", emptyTiles.get(size - 1));
+        return String.format("(move < 0 || move >= 9 || %s)", ret);
     }
 
     private String formattedMoveValidation(String condition, int depth) {

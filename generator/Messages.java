@@ -44,7 +44,7 @@ class Messages {
                                   "\n\nmove = Integer.parseInt(in.nextLine());" +
                                   "\n";
 
-    static final String moveValidationTemplate = "\nwhile (%s) {\n" +
+    static final String moveValidationTemplate = "\nwhile %s {\n" +
                                                  "\n    System.out.println(\"Invalid move!\");" +
                                                  message.replaceAll("\n", "\n    ") +
                                                  "\n}";
