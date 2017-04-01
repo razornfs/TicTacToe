@@ -1,6 +1,8 @@
 package com.tictactoe.generator;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 class Board {
     private Tile[] board;
@@ -23,28 +25,29 @@ class Board {
         return board[position];
     }
 
-    // returns false if the move is invalid
-    boolean placeTile(Tile tile, int position) {
-        if (!isEmpty(position)) {
-            return false;
+    List<Integer> getFilledTiles() {
+        List<Integer> filledTiles = new ArrayList<>();
+        for (int i = 0; i < board.length; i++) {
+            if (!isTileEmpty(i)) {
+                filledTiles.add(i);
+            }
         }
-        board[position] = tile;
-        return true;
+        return filledTiles;
     }
 
-    int size() {
-        return board.length;
-    }
-
-    boolean removeTile(int position) {
-        if (!rangeCheck(position)) {
-            return false;
+    void placeTile(Tile tile, int position) {
+        if (isTileEmpty(position)) {
+            board[position] = tile;
         }
-        board[position] = Tile.EMPTY;
-        return true;
     }
 
-    private boolean isEmpty(int position) {
+    void removeTile(int position) {
+        if (rangeCheck(position)) {
+            board[position] = Tile.EMPTY;
+        }
+    }
+
+    boolean isTileEmpty(int position) {
         return rangeCheck(position) && board[position] == Tile.EMPTY;
     }
 

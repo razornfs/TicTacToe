@@ -9,61 +9,66 @@ class TicTacToeGenerator {
 
     private List<String> methodBodies = new ArrayList<>();
     private StringBuilder currentMethodBody = new StringBuilder();
+    private StringBuilder output = new StringBuilder();
 
     void generate() {
         Board board = new Board();
-        StringBuilder output = new StringBuilder();
+        printInitialMessages(board);
+        printMove(board, 3);
+        printMethodCalls();
+        printMethodDefinitions();
+        createOutputFile();
+    }
+
+    private void printInitialMessages(Board board) {
         output.append(Messages.start).append("\n");
         output.append(formattedBoard(board, 2)).append("\n");
         output.append(formattedMessage(2)).append("\n");
-        printMove(board, 3);
+    }
+
+    private void printMethodCalls() {
         for (int i = 0; i < methodBodies.size(); i++) {
             output.append(String.format("        method%d();", i + 1)).append("\n");
         }
         output.append("    }\n");
+    }
+
+    private void printMethodDefinitions() {
         for (int i = 0; i < methodBodies.size(); i++) {
             output.append(String.format("    static void method%d() {", i + 1)).append("\n");
             output.append(methodBodies.get(i)).append("\n");
             output.append("    }").append("\n");
         }
         output.append("}").append("\n");
+    }
 
+    private void createOutputFile() {
         try (PrintWriter out = new PrintWriter("TicTacToe.java")) {
             out.println(output);
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
     }
 
     private void printMove(Board board, int depth) {
         printMoveValidation(board, depth);
         for (int i = 0; i < 9; i++) {
-            if (currentMethodBody.length() > 10000 && depth == 3) {
-                methodBodies.add(currentMethodBody.toString());
-                currentMethodBody = new StringBuilder();
-            }
+            breakDownBigMethod(depth);
             board = new Board(board);
-            if (board.getTile(i) != Tile.EMPTY) {
+            if (!board.isTileEmpty(i)) {
                 continue;
             }
             board.placeTile(Tile.X, i);
+
             appendIndented(depth, String.format("if (move == %d) {", i));
 
             if (board.isWinner(Tile.X)) {
-                // if the OptimalPlayer algorithm is correct, this should never happen
-                appendIndented(depth + 1, "System.out.println(\"You win!\");");
-                appendIndented(0, formattedBoard(board, depth + 1));
-                appendIndented(depth + 1, "System.exit(0);");
-                appendIndented(depth, "}");
-                board.removeTile(i);
+                printExitingMessage(board, depth, "You win!");
                 continue;
             }
 
             if (board.isFull()) {
-                appendIndented(depth + 1, "System.out.println(\"It's a tie!\");");
-                appendIndented(0, formattedBoard(board, depth + 1));
-                appendIndented(depth + 1, "System.exit(0);");
-                appendIndented(depth, "}");
+                printExitingMessage(board, depth, "It's a tie!");
                 continue;
             }
 
@@ -71,14 +76,11 @@ class TicTacToeGenerator {
             int computerMove = computer.getOptimalMove();
             board.placeTile(Tile.O, computerMove);
 
-            appendIndented(depth + 1, "System.out.println(" + Messages.computerMoveMessages[computerMove] + ");");
+            printComputerMove(depth + 1, computerMove);
             appendIndented(0, formattedBoard(board, depth + 1));
 
             if (board.isWinner(Tile.O)) {
-                appendIndented(depth + 1, "System.out.println(\"The computer wins!\");");
-                appendIndented(0, formattedBoard(board, depth + 1));
-                appendIndented(depth + 1, "System.exit(0);");
-                appendIndented(depth, "}");
+                printExitingMessage(board, depth, "The computer wins!");
                 board.removeTile(i);
                 board.removeTile(computerMove);
                 continue;
@@ -88,24 +90,35 @@ class TicTacToeGenerator {
             printMove(board, depth + 1);
             board.removeTile(i);
             board.removeTile(computerMove);
-            appendIndented(0, indentLevel(depth) + "}");
+            appendIndented(depth, "}");
         }
+    }
+
+    // In java there's a maximum size of a method that's equal to 64 KB.
+    // To avoid compilation errors we're splitting the code into several helper methods.
+    private void breakDownBigMethod(int depth) {
+        if (currentMethodBody.length() > 10000 && depth == 3) {
+            methodBodies.add(currentMethodBody.toString());
+            currentMethodBody = new StringBuilder();
+        }
+    }
+
+    private void printComputerMove(int depth, int computerMove) {
+        appendIndented(depth + 1,
+                       String.format("System.out.println(%s);", Messages.computerMoveMessages[computerMove]));
+    }
+
+    private void printExitingMessage(Board board, int depth, String message) {
+        appendIndented(depth + 1, String.format("System.out.println(\"%s\");", message));
+        appendIndented(0, formattedBoard(board, depth + 1));
+        appendIndented(depth + 1, "System.exit(0);");
+        appendIndented(depth, "}");
     }
 
     private void printMoveValidation(Board board, int depth) {
-        List<Integer> filledTiles = getFilledTiles(board);
+        List<Integer> filledTiles = board.getFilledTiles();
         String condition = formattedCondition(filledTiles);
         appendIndented(0, formattedMoveValidation(condition, depth));
-    }
-
-    private List<Integer> getFilledTiles(Board board) {
-        List<Integer> emptyTiles = new ArrayList<>();
-        for (int i = 0; i < board.size(); i++) {
-            if (board.getTile(i) != Tile.EMPTY) {
-                emptyTiles.add(i);
-            }
-        }
-        return emptyTiles;
     }
 
     private String formattedCondition(List<Integer> emptyTiles) {

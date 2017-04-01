@@ -54,7 +54,7 @@ public class TicTacToe {
                 
             }
             if (move == 0) {
-                System.out.println("O moves on the center space.");
+                    System.out.println("O moves on the center space.");
 
                 System.out.println("   |   |   ");
                 System.out.println(" X |   |   ");
@@ -92,7 +92,7 @@ public class TicTacToe {
                     
                 }
                 if (move == 1) {
-                    System.out.println("O moves on the top-right space.");
+                        System.out.println("O moves on the top-right space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" X | X | O ");
@@ -130,7 +130,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | X | O ");
@@ -159,7 +159,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | X | O ");
@@ -188,7 +188,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | X | O ");
@@ -226,7 +226,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -281,7 +281,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -310,7 +310,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -340,7 +340,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | X | O ");
@@ -369,7 +369,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | X | O ");
@@ -399,7 +399,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 2) {
-                    System.out.println("O moves on the top space.");
+                        System.out.println("O moves on the top space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" X | O | X ");
@@ -437,7 +437,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -466,7 +466,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -495,7 +495,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -524,7 +524,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -562,7 +562,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -617,7 +617,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -646,7 +646,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -676,7 +676,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -706,7 +706,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 3) {
-                    System.out.println("O moves on the bottom-left space.");
+                        System.out.println("O moves on the bottom-left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" X |   |   ");
@@ -744,7 +744,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | X | O ");
@@ -773,7 +773,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -811,7 +811,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -840,7 +840,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -895,7 +895,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -925,7 +925,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   | O ");
@@ -954,7 +954,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   | O ");
@@ -983,7 +983,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   | O ");
@@ -1013,7 +1013,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 5) {
-                    System.out.println("O moves on the top space.");
+                        System.out.println("O moves on the top space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" X | O |   ");
@@ -1051,7 +1051,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -1080,7 +1080,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -1109,7 +1109,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -1138,7 +1138,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -1176,7 +1176,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -1231,7 +1231,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -1260,7 +1260,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -1290,7 +1290,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -1320,7 +1320,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 6) {
-                    System.out.println("O moves on the left space.");
+                        System.out.println("O moves on the left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" X |   |   ");
@@ -1358,7 +1358,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | X |   ");
@@ -1387,7 +1387,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   | X ");
@@ -1416,7 +1416,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -1454,7 +1454,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -1483,7 +1483,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O |   ");
@@ -1538,7 +1538,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O |   ");
@@ -1568,7 +1568,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   |   ");
@@ -1597,7 +1597,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   |   ");
@@ -1627,7 +1627,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 7) {
-                    System.out.println("O moves on the left space.");
+                        System.out.println("O moves on the left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" X |   |   ");
@@ -1665,7 +1665,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | X |   ");
@@ -1694,7 +1694,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   | X ");
@@ -1723,7 +1723,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   | O ");
@@ -1761,7 +1761,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -1790,7 +1790,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X |   | O ");
@@ -1845,7 +1845,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X |   | O ");
@@ -1875,7 +1875,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   |   ");
@@ -1904,7 +1904,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   |   ");
@@ -1934,7 +1934,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 8) {
-                    System.out.println("O moves on the top space.");
+                        System.out.println("O moves on the top space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" X | O |   ");
@@ -1972,7 +1972,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -2001,7 +2001,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -2030,7 +2030,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -2059,7 +2059,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -2088,7 +2088,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -2126,7 +2126,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -2181,7 +2181,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -2210,7 +2210,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -2245,7 +2245,7 @@ public class TicTacToe {
     }
     static void method2() {
             if (move == 1) {
-                System.out.println("O moves on the top-left space.");
+                    System.out.println("O moves on the top-left space.");
 
                 System.out.println("   |   |   ");
                 System.out.println(" O | X |   ");
@@ -2283,7 +2283,7 @@ public class TicTacToe {
                     
                 }
                 if (move == 2) {
-                    System.out.println("O moves on the left space.");
+                        System.out.println("O moves on the left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O | X | X ");
@@ -2321,7 +2321,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 4) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -2350,7 +2350,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -2379,7 +2379,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -2417,7 +2417,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -2446,7 +2446,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -2475,7 +2475,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -2505,7 +2505,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -2534,7 +2534,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -2564,7 +2564,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 3) {
-                    System.out.println("O moves on the center space.");
+                        System.out.println("O moves on the center space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O | X |   ");
@@ -2602,7 +2602,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -2631,7 +2631,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -2660,7 +2660,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -2689,7 +2689,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -2718,7 +2718,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | O ");
@@ -2756,7 +2756,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -2785,7 +2785,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -2840,7 +2840,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -2871,7 +2871,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 4) {
-                    System.out.println("O moves on the bottom space.");
+                        System.out.println("O moves on the bottom space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O | X |   ");
@@ -2909,7 +2909,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -2947,7 +2947,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -2976,7 +2976,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -3005,7 +3005,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -3035,7 +3035,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -3073,7 +3073,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -3128,7 +3128,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -3183,7 +3183,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -3239,7 +3239,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -3277,7 +3277,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -3306,7 +3306,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -3361,7 +3361,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X |   ");
@@ -3391,7 +3391,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | O ");
@@ -3429,7 +3429,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -3484,7 +3484,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -3539,7 +3539,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -3595,7 +3595,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | O ");
@@ -3633,7 +3633,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -3688,7 +3688,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -3743,7 +3743,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -3800,7 +3800,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 5) {
-                    System.out.println("O moves on the bottom-left space.");
+                        System.out.println("O moves on the bottom-left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O | X |   ");
@@ -3838,7 +3838,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -3867,7 +3867,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -3905,7 +3905,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -3934,7 +3934,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -3963,7 +3963,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -3993,7 +3993,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 4) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -4022,7 +4022,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -4051,7 +4051,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -4081,7 +4081,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 6) {
-                    System.out.println("O moves on the center space.");
+                        System.out.println("O moves on the center space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O | X |   ");
@@ -4119,7 +4119,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -4148,7 +4148,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -4177,7 +4177,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -4206,7 +4206,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -4235,7 +4235,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -4273,7 +4273,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -4328,7 +4328,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -4383,7 +4383,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -4440,7 +4440,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 7) {
-                    System.out.println("O moves on the center space.");
+                        System.out.println("O moves on the center space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O | X |   ");
@@ -4478,7 +4478,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -4507,7 +4507,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -4536,7 +4536,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -4565,7 +4565,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -4594,7 +4594,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -4632,7 +4632,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -4661,7 +4661,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -4690,7 +4690,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -4721,7 +4721,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 8) {
-                    System.out.println("O moves on the center space.");
+                        System.out.println("O moves on the center space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O | X |   ");
@@ -4759,7 +4759,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -4797,7 +4797,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -4852,7 +4852,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -4881,7 +4881,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -4911,7 +4911,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | O ");
@@ -4949,7 +4949,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -4978,7 +4978,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -5033,7 +5033,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -5063,7 +5063,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | O ");
@@ -5101,7 +5101,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -5130,7 +5130,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -5185,7 +5185,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -5215,7 +5215,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -5253,7 +5253,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -5308,7 +5308,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -5363,7 +5363,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -5419,7 +5419,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -5457,7 +5457,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -5486,7 +5486,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -5515,7 +5515,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -5550,7 +5550,7 @@ public class TicTacToe {
     }
     static void method3() {
             if (move == 2) {
-                System.out.println("O moves on the center space.");
+                    System.out.println("O moves on the center space.");
 
                 System.out.println("   |   |   ");
                 System.out.println("   |   | X ");
@@ -5588,7 +5588,7 @@ public class TicTacToe {
                     
                 }
                 if (move == 0) {
-                    System.out.println("O moves on the top space.");
+                        System.out.println("O moves on the top space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" X | O | X ");
@@ -5626,7 +5626,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -5655,7 +5655,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -5684,7 +5684,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -5713,7 +5713,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -5751,7 +5751,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -5806,7 +5806,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -5835,7 +5835,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -5865,7 +5865,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -5895,7 +5895,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 1) {
-                    System.out.println("O moves on the top-left space.");
+                        System.out.println("O moves on the top-left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O | X | X ");
@@ -5933,7 +5933,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -5962,7 +5962,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -5991,7 +5991,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -6020,7 +6020,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -6049,7 +6049,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -6087,7 +6087,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -6142,7 +6142,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -6171,7 +6171,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -6202,7 +6202,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 3) {
-                    System.out.println("O moves on the top-left space.");
+                        System.out.println("O moves on the top-left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O |   | X ");
@@ -6240,7 +6240,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -6269,7 +6269,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -6298,7 +6298,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -6327,7 +6327,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -6356,7 +6356,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -6394,7 +6394,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -6449,7 +6449,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O |   | X ");
@@ -6504,7 +6504,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O |   | X ");
@@ -6561,7 +6561,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 5) {
-                    System.out.println("O moves on the bottom-right space.");
+                        System.out.println("O moves on the bottom-right space.");
 
                     System.out.println("   |   |   ");
                     System.out.println("   |   | X ");
@@ -6599,7 +6599,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 0) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -6637,7 +6637,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -6666,7 +6666,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -6695,7 +6695,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -6751,7 +6751,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -6780,7 +6780,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -6809,7 +6809,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -6838,7 +6838,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -6868,7 +6868,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 6) {
-                    System.out.println("O moves on the top space.");
+                        System.out.println("O moves on the top space.");
 
                     System.out.println("   |   |   ");
                     System.out.println("   | O | X ");
@@ -6906,7 +6906,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 0) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -6935,7 +6935,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -6964,7 +6964,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -6993,7 +6993,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -7031,7 +7031,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -7086,7 +7086,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -7115,7 +7115,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -7145,7 +7145,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -7175,7 +7175,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 7) {
-                    System.out.println("O moves on the left space.");
+                        System.out.println("O moves on the left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println("   |   | X ");
@@ -7213,7 +7213,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 0) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   | X ");
@@ -7242,7 +7242,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | X | X ");
@@ -7271,7 +7271,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   |   | X ");
@@ -7309,7 +7309,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -7364,7 +7364,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -7393,7 +7393,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O |   | X ");
@@ -7423,7 +7423,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   |   | X ");
@@ -7452,7 +7452,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   |   | X ");
@@ -7482,7 +7482,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 8) {
-                    System.out.println("O moves on the right space.");
+                        System.out.println("O moves on the right space.");
 
                     System.out.println("   |   |   ");
                     System.out.println("   |   | X ");
@@ -7520,7 +7520,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 0) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   | X ");
@@ -7549,7 +7549,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | X | X ");
@@ -7578,7 +7578,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -7616,7 +7616,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -7671,7 +7671,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O |   | X ");
@@ -7726,7 +7726,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O |   | X ");
@@ -7782,7 +7782,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   |   | X ");
@@ -7811,7 +7811,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   |   | X ");
@@ -7845,7 +7845,7 @@ public class TicTacToe {
     }
     static void method4() {
             if (move == 3) {
-                System.out.println("O moves on the top-left space.");
+                    System.out.println("O moves on the top-left space.");
 
                 System.out.println("   |   |   ");
                 System.out.println(" O |   |   ");
@@ -7883,7 +7883,7 @@ public class TicTacToe {
                     
                 }
                 if (move == 1) {
-                    System.out.println("O moves on the center space.");
+                        System.out.println("O moves on the center space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O | X |   ");
@@ -7921,7 +7921,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -7950,7 +7950,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -7979,7 +7979,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -8008,7 +8008,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -8037,7 +8037,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | O ");
@@ -8075,7 +8075,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -8104,7 +8104,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -8159,7 +8159,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -8190,7 +8190,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 2) {
-                    System.out.println("O moves on the center space.");
+                        System.out.println("O moves on the center space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O |   | X ");
@@ -8228,7 +8228,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -8257,7 +8257,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -8286,7 +8286,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -8315,7 +8315,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -8344,7 +8344,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -8382,7 +8382,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -8437,7 +8437,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O |   | X ");
@@ -8492,7 +8492,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O |   | X ");
@@ -8549,7 +8549,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 4) {
-                    System.out.println("O moves on the right space.");
+                        System.out.println("O moves on the right space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O |   |   ");
@@ -8587,7 +8587,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -8625,7 +8625,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -8680,7 +8680,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -8735,7 +8735,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -8791,7 +8791,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -8829,7 +8829,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -8884,7 +8884,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -8939,7 +8939,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -8995,7 +8995,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | O ");
@@ -9033,7 +9033,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -9062,7 +9062,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -9091,7 +9091,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -9121,7 +9121,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O |   ");
@@ -9159,7 +9159,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -9214,7 +9214,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -9243,7 +9243,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -9273,7 +9273,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O |   ");
@@ -9311,7 +9311,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -9366,7 +9366,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -9395,7 +9395,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -9426,7 +9426,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 5) {
-                    System.out.println("O moves on the center space.");
+                        System.out.println("O moves on the center space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O |   |   ");
@@ -9464,7 +9464,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -9493,7 +9493,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -9522,7 +9522,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   |   ");
@@ -9551,7 +9551,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   |   ");
@@ -9580,7 +9580,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | O ");
@@ -9618,7 +9618,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -9647,7 +9647,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -9676,7 +9676,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -9707,7 +9707,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 6) {
-                    System.out.println("O moves on the top space.");
+                        System.out.println("O moves on the top space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O | O |   ");
@@ -9745,7 +9745,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | X ");
@@ -9783,7 +9783,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -9812,7 +9812,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -9841,7 +9841,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -9871,7 +9871,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 4) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -9900,7 +9900,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -9929,7 +9929,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -9958,7 +9958,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -9988,7 +9988,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 7) {
-                    System.out.println("O moves on the top-right space.");
+                        System.out.println("O moves on the top-right space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O |   | O ");
@@ -10026,7 +10026,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | O ");
@@ -10064,7 +10064,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -10093,7 +10093,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -10122,7 +10122,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -10152,7 +10152,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 4) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -10181,7 +10181,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -10210,7 +10210,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -10239,7 +10239,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -10269,7 +10269,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 8) {
-                    System.out.println("O moves on the top-right space.");
+                        System.out.println("O moves on the top-right space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O |   | O ");
@@ -10307,7 +10307,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | O ");
@@ -10345,7 +10345,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -10374,7 +10374,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -10429,7 +10429,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -10459,7 +10459,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 4) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -10488,7 +10488,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -10517,7 +10517,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -10546,7 +10546,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -10580,7 +10580,7 @@ public class TicTacToe {
     }
     static void method5() {
             if (move == 4) {
-                System.out.println("O moves on the top-left space.");
+                    System.out.println("O moves on the top-left space.");
 
                 System.out.println("   |   |   ");
                 System.out.println(" O |   |   ");
@@ -10618,7 +10618,7 @@ public class TicTacToe {
                     
                 }
                 if (move == 1) {
-                    System.out.println("O moves on the bottom space.");
+                        System.out.println("O moves on the bottom space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O | X |   ");
@@ -10656,7 +10656,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -10694,7 +10694,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -10723,7 +10723,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -10752,7 +10752,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -10782,7 +10782,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -10820,7 +10820,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -10875,7 +10875,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -10930,7 +10930,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -10986,7 +10986,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -11024,7 +11024,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -11053,7 +11053,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -11108,7 +11108,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X |   ");
@@ -11138,7 +11138,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | O ");
@@ -11176,7 +11176,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -11231,7 +11231,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -11286,7 +11286,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -11342,7 +11342,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | O ");
@@ -11380,7 +11380,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -11435,7 +11435,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -11490,7 +11490,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -11547,7 +11547,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 2) {
-                    System.out.println("O moves on the bottom-left space.");
+                        System.out.println("O moves on the bottom-left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O |   | X ");
@@ -11585,7 +11585,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -11614,7 +11614,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -11652,7 +11652,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -11707,7 +11707,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -11762,7 +11762,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -11818,7 +11818,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -11847,7 +11847,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -11876,7 +11876,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -11906,7 +11906,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 3) {
-                    System.out.println("O moves on the right space.");
+                        System.out.println("O moves on the right space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O |   |   ");
@@ -11944,7 +11944,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -11982,7 +11982,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -12037,7 +12037,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -12092,7 +12092,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -12148,7 +12148,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -12186,7 +12186,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -12241,7 +12241,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -12296,7 +12296,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -12352,7 +12352,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | O ");
@@ -12390,7 +12390,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -12419,7 +12419,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -12448,7 +12448,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -12478,7 +12478,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O |   ");
@@ -12516,7 +12516,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -12571,7 +12571,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -12600,7 +12600,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -12630,7 +12630,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O |   ");
@@ -12668,7 +12668,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -12723,7 +12723,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -12752,7 +12752,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -12783,7 +12783,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 5) {
-                    System.out.println("O moves on the left space.");
+                        System.out.println("O moves on the left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O |   |   ");
@@ -12821,7 +12821,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -12850,7 +12850,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -12879,7 +12879,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | O ");
@@ -12917,7 +12917,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -12972,7 +12972,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -13001,7 +13001,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -13031,7 +13031,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   |   ");
@@ -13060,7 +13060,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   |   ");
@@ -13090,7 +13090,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 6) {
-                    System.out.println("O moves on the top-right space.");
+                        System.out.println("O moves on the top-right space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O |   | O ");
@@ -13128,7 +13128,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | O ");
@@ -13166,7 +13166,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -13221,7 +13221,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -13276,7 +13276,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -13332,7 +13332,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -13361,7 +13361,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -13390,7 +13390,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -13419,7 +13419,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -13449,7 +13449,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 7) {
-                    System.out.println("O moves on the top space.");
+                        System.out.println("O moves on the top space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O | O |   ");
@@ -13487,7 +13487,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | X ");
@@ -13525,7 +13525,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -13580,7 +13580,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -13609,7 +13609,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -13639,7 +13639,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -13668,7 +13668,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -13697,7 +13697,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -13726,7 +13726,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -13756,7 +13756,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 8) {
-                    System.out.println("O moves on the top-right space.");
+                        System.out.println("O moves on the top-right space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O |   | O ");
@@ -13794,7 +13794,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | O ");
@@ -13832,7 +13832,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -13887,7 +13887,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -13942,7 +13942,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -13998,7 +13998,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -14027,7 +14027,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -14056,7 +14056,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -14085,7 +14085,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -14119,7 +14119,7 @@ public class TicTacToe {
     }
     static void method6() {
             if (move == 5) {
-                System.out.println("O moves on the top-right space.");
+                    System.out.println("O moves on the top-right space.");
 
                 System.out.println("   |   |   ");
                 System.out.println("   |   | O ");
@@ -14157,7 +14157,7 @@ public class TicTacToe {
                     
                 }
                 if (move == 0) {
-                    System.out.println("O moves on the left space.");
+                        System.out.println("O moves on the left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" X |   | O ");
@@ -14195,7 +14195,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | X | O ");
@@ -14233,7 +14233,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -14288,7 +14288,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -14317,7 +14317,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -14347,7 +14347,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 4) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   | O ");
@@ -14385,7 +14385,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -14440,7 +14440,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -14495,7 +14495,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -14551,7 +14551,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   | O ");
@@ -14589,7 +14589,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -14644,7 +14644,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X |   | O ");
@@ -14699,7 +14699,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X |   | O ");
@@ -14755,7 +14755,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   | O ");
@@ -14793,7 +14793,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -14822,7 +14822,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X |   | O ");
@@ -14877,7 +14877,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X |   | O ");
@@ -14907,7 +14907,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   | O ");
@@ -14945,7 +14945,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -14974,7 +14974,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X |   | O ");
@@ -15029,7 +15029,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X |   | O ");
@@ -15060,7 +15060,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 1) {
-                    System.out.println("O moves on the left space.");
+                        System.out.println("O moves on the left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println("   | X | O ");
@@ -15098,7 +15098,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 0) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | X | O ");
@@ -15136,7 +15136,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -15191,7 +15191,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -15220,7 +15220,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -15250,7 +15250,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 4) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | X | O ");
@@ -15288,7 +15288,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -15343,7 +15343,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -15398,7 +15398,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -15454,7 +15454,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | X | O ");
@@ -15492,7 +15492,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -15547,7 +15547,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println("   | X | O ");
@@ -15602,7 +15602,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println("   | X | O ");
@@ -15658,7 +15658,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | X | O ");
@@ -15696,7 +15696,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -15725,7 +15725,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println("   | X | O ");
@@ -15780,7 +15780,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println("   | X | O ");
@@ -15810,7 +15810,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | X | O ");
@@ -15848,7 +15848,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the center space.");
+                                System.out.println("O moves on the center space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -15877,7 +15877,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 4) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -15906,7 +15906,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -15937,7 +15937,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 3) {
-                    System.out.println("O moves on the center space.");
+                        System.out.println("O moves on the center space.");
 
                     System.out.println("   |   |   ");
                     System.out.println("   |   | O ");
@@ -15975,7 +15975,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 0) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   | O ");
@@ -16004,7 +16004,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | X | O ");
@@ -16033,7 +16033,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | O ");
@@ -16071,7 +16071,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -16100,7 +16100,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -16129,7 +16129,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -16159,7 +16159,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   |   | O ");
@@ -16188,7 +16188,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   |   | O ");
@@ -16218,7 +16218,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 4) {
-                    System.out.println("O moves on the left space.");
+                        System.out.println("O moves on the left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println("   |   | O ");
@@ -16256,7 +16256,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 0) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   | O ");
@@ -16294,7 +16294,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -16349,7 +16349,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -16404,7 +16404,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -16460,7 +16460,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | X | O ");
@@ -16498,7 +16498,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X | O ");
@@ -16553,7 +16553,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -16608,7 +16608,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -16664,7 +16664,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | O ");
@@ -16702,7 +16702,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -16757,7 +16757,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -16786,7 +16786,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -16816,7 +16816,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | O ");
@@ -16854,7 +16854,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -16909,7 +16909,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -16938,7 +16938,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -16968,7 +16968,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | O ");
@@ -17006,7 +17006,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -17035,7 +17035,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -17064,7 +17064,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -17095,7 +17095,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 6) {
-                    System.out.println("O moves on the top-left space.");
+                        System.out.println("O moves on the top-left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O |   | O ");
@@ -17133,7 +17133,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | O ");
@@ -17171,7 +17171,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -17200,7 +17200,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -17229,7 +17229,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -17285,7 +17285,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -17314,7 +17314,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 4) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -17343,7 +17343,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -17372,7 +17372,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -17402,7 +17402,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 7) {
-                    System.out.println("O moves on the top-left space.");
+                        System.out.println("O moves on the top-left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O |   | O ");
@@ -17440,7 +17440,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | O ");
@@ -17478,7 +17478,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -17507,7 +17507,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 6) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -17536,7 +17536,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the bottom-left space.");
+                                System.out.println("O moves on the bottom-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -17566,7 +17566,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -17595,7 +17595,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 4) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -17624,7 +17624,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -17653,7 +17653,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -17683,7 +17683,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 8) {
-                    System.out.println("O moves on the top-left space.");
+                        System.out.println("O moves on the top-left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O |   | O ");
@@ -17721,7 +17721,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | O ");
@@ -17759,7 +17759,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the center space.");
+                                System.out.println("O moves on the center space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -17788,7 +17788,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 4) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -17817,7 +17817,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -17847,7 +17847,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -17876,7 +17876,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 4) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -17905,7 +17905,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -17934,7 +17934,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -17968,7 +17968,7 @@ public class TicTacToe {
     }
     static void method7() {
             if (move == 6) {
-                System.out.println("O moves on the center space.");
+                    System.out.println("O moves on the center space.");
 
                 System.out.println("   |   |   ");
                 System.out.println("   |   |   ");
@@ -18006,7 +18006,7 @@ public class TicTacToe {
                     
                 }
                 if (move == 0) {
-                    System.out.println("O moves on the left space.");
+                        System.out.println("O moves on the left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" X |   |   ");
@@ -18044,7 +18044,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | X |   ");
@@ -18073,7 +18073,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   | X ");
@@ -18102,7 +18102,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -18140,7 +18140,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -18169,7 +18169,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 7) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O |   ");
@@ -18224,7 +18224,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the bottom space.");
+                                System.out.println("O moves on the bottom space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O |   ");
@@ -18254,7 +18254,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   |   ");
@@ -18283,7 +18283,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   |   ");
@@ -18313,7 +18313,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 1) {
-                    System.out.println("O moves on the top-left space.");
+                        System.out.println("O moves on the top-left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O | X |   ");
@@ -18351,7 +18351,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X | X ");
@@ -18380,7 +18380,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -18409,7 +18409,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -18438,7 +18438,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -18467,7 +18467,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -18505,7 +18505,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -18560,7 +18560,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -18615,7 +18615,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -18672,7 +18672,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 2) {
-                    System.out.println("O moves on the top space.");
+                        System.out.println("O moves on the top space.");
 
                     System.out.println("   |   |   ");
                     System.out.println("   | O | X ");
@@ -18710,7 +18710,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 0) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -18739,7 +18739,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -18768,7 +18768,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -18797,7 +18797,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -18835,7 +18835,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -18890,7 +18890,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -18919,7 +18919,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -18949,7 +18949,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -18979,7 +18979,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 3) {
-                    System.out.println("O moves on the top-left space.");
+                        System.out.println("O moves on the top-left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O |   |   ");
@@ -19017,7 +19017,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -19046,7 +19046,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -19075,7 +19075,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   |   ");
@@ -19104,7 +19104,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   |   ");
@@ -19133,7 +19133,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   |   ");
@@ -19171,7 +19171,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -19226,7 +19226,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -19255,7 +19255,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O |   ");
@@ -19286,7 +19286,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 5) {
-                    System.out.println("O moves on the top space.");
+                        System.out.println("O moves on the top space.");
 
                     System.out.println("   |   |   ");
                     System.out.println("   | O |   ");
@@ -19324,7 +19324,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 0) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -19353,7 +19353,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -19382,7 +19382,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O |   ");
@@ -19411,7 +19411,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 7) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O |   ");
@@ -19449,7 +19449,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O |   ");
@@ -19504,7 +19504,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -19533,7 +19533,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O |   ");
@@ -19563,7 +19563,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the bottom space.");
+                            System.out.println("O moves on the bottom space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O |   ");
@@ -19593,7 +19593,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 7) {
-                    System.out.println("O moves on the bottom-right space.");
+                        System.out.println("O moves on the bottom-right space.");
 
                     System.out.println("   |   |   ");
                     System.out.println("   |   |   ");
@@ -19631,7 +19631,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 0) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X |   |   ");
@@ -19669,7 +19669,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 1) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | X |   ");
@@ -19698,7 +19698,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X |   | X ");
@@ -19727,7 +19727,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top space.");
+                                System.out.println("O moves on the top space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O |   ");
@@ -19783,7 +19783,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -19812,7 +19812,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   | X ");
@@ -19841,7 +19841,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   |   ");
@@ -19870,7 +19870,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O |   |   ");
@@ -19900,7 +19900,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 8) {
-                    System.out.println("O moves on the bottom space.");
+                        System.out.println("O moves on the bottom space.");
 
                     System.out.println("   |   |   ");
                     System.out.println("   |   |   ");
@@ -19938,7 +19938,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 0) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -19967,7 +19967,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 1) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | X |   ");
@@ -20005,7 +20005,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | X ");
@@ -20060,7 +20060,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -20115,7 +20115,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | X | O ");
@@ -20171,7 +20171,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -20200,7 +20200,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O |   ");
@@ -20229,7 +20229,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the top space.");
+                            System.out.println("O moves on the top space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O |   ");
@@ -20263,7 +20263,7 @@ public class TicTacToe {
     }
     static void method8() {
             if (move == 7) {
-                System.out.println("O moves on the top space.");
+                    System.out.println("O moves on the top space.");
 
                 System.out.println("   |   |   ");
                 System.out.println("   | O |   ");
@@ -20301,7 +20301,7 @@ public class TicTacToe {
                     
                 }
                 if (move == 0) {
-                    System.out.println("O moves on the bottom-left space.");
+                        System.out.println("O moves on the bottom-left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" X | O |   ");
@@ -20339,7 +20339,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -20377,7 +20377,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -20432,7 +20432,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -20487,7 +20487,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -20543,7 +20543,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -20581,7 +20581,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -20636,7 +20636,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -20665,7 +20665,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -20695,7 +20695,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 4) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -20733,7 +20733,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -20788,7 +20788,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O |   ");
@@ -20843,7 +20843,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O |   ");
@@ -20899,7 +20899,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -20937,7 +20937,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -20992,7 +20992,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -21021,7 +21021,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -21051,7 +21051,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -21089,7 +21089,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -21144,7 +21144,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -21173,7 +21173,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -21204,7 +21204,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 2) {
-                    System.out.println("O moves on the bottom-left space.");
+                        System.out.println("O moves on the bottom-left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println("   | O | X ");
@@ -21242,7 +21242,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 0) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O | X ");
@@ -21280,7 +21280,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -21335,7 +21335,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -21390,7 +21390,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -21446,7 +21446,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -21484,7 +21484,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -21539,7 +21539,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println("   | O | X ");
@@ -21594,7 +21594,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println("   | O | X ");
@@ -21650,7 +21650,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 4) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | X ");
@@ -21688,7 +21688,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -21743,7 +21743,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -21772,7 +21772,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -21802,7 +21802,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -21840,7 +21840,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -21895,7 +21895,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the center space.");
+                                System.out.println("O moves on the center space.");
 
                             System.out.println("   |   |   ");
                             System.out.println("   | O | X ");
@@ -21950,7 +21950,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 4) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println("   | O | X ");
@@ -22006,7 +22006,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -22044,7 +22044,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the center space.");
+                                System.out.println("O moves on the center space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -22099,7 +22099,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -22154,7 +22154,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 4) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -22211,7 +22211,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 3) {
-                    System.out.println("O moves on the bottom-left space.");
+                        System.out.println("O moves on the bottom-left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println("   | O |   ");
@@ -22249,7 +22249,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 0) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -22287,7 +22287,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -22342,7 +22342,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -22371,7 +22371,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -22401,7 +22401,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -22439,7 +22439,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -22494,7 +22494,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println("   | O | X ");
@@ -22549,7 +22549,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println("   | O | X ");
@@ -22605,7 +22605,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 4) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O |   ");
@@ -22643,7 +22643,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O |   ");
@@ -22698,7 +22698,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -22753,7 +22753,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O |   ");
@@ -22809,7 +22809,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O |   ");
@@ -22847,7 +22847,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -22876,7 +22876,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println("   | O | X ");
@@ -22931,7 +22931,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println("   | O | O ");
@@ -22961,7 +22961,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | O ");
@@ -22999,7 +22999,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the center space.");
+                                System.out.println("O moves on the center space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -23028,7 +23028,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 4) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -23057,7 +23057,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -23088,7 +23088,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 4) {
-                    System.out.println("O moves on the top-left space.");
+                        System.out.println("O moves on the top-left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println(" O | O |   ");
@@ -23126,7 +23126,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom-left space.");
+                            System.out.println("O moves on the bottom-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | X ");
@@ -23164,7 +23164,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -23219,7 +23219,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -23248,7 +23248,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -23278,7 +23278,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -23307,7 +23307,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -23336,7 +23336,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 6) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -23365,7 +23365,7 @@ public class TicTacToe {
                         System.exit(0);
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O | O ");
@@ -23395,7 +23395,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 5) {
-                    System.out.println("O moves on the bottom-left space.");
+                        System.out.println("O moves on the bottom-left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println("   | O |   ");
@@ -23433,7 +23433,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 0) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -23471,7 +23471,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -23526,7 +23526,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -23555,7 +23555,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -23585,7 +23585,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the bottom-right space.");
+                            System.out.println("O moves on the bottom-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -23623,7 +23623,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -23678,7 +23678,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the center space.");
+                                System.out.println("O moves on the center space.");
 
                             System.out.println("   |   |   ");
                             System.out.println("   | O | X ");
@@ -23733,7 +23733,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 4) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println("   | O | X ");
@@ -23789,7 +23789,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O |   ");
@@ -23827,7 +23827,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -23856,7 +23856,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println("   | O | X ");
@@ -23911,7 +23911,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println("   | O | O ");
@@ -23941,7 +23941,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 4) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O |   ");
@@ -23979,7 +23979,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the bottom-right space.");
+                                System.out.println("O moves on the bottom-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O |   ");
@@ -24034,7 +24034,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -24063,7 +24063,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 8) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O |   ");
@@ -24093,7 +24093,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 8) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | O ");
@@ -24131,7 +24131,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the center space.");
+                                System.out.println("O moves on the center space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -24160,7 +24160,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -24189,7 +24189,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 4) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -24220,7 +24220,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 6) {
-                    System.out.println("O moves on the bottom-right space.");
+                        System.out.println("O moves on the bottom-right space.");
 
                     System.out.println("   |   |   ");
                     System.out.println("   | O |   ");
@@ -24258,7 +24258,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 0) {
-                        System.out.println("O moves on the left space.");
+                            System.out.println("O moves on the left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -24296,7 +24296,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the center space.");
+                                System.out.println("O moves on the center space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -24351,7 +24351,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 4) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -24406,7 +24406,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -24462,7 +24462,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -24500,7 +24500,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -24555,7 +24555,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -24584,7 +24584,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -24614,7 +24614,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O |   ");
@@ -24652,7 +24652,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the center space.");
+                                System.out.println("O moves on the center space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -24681,7 +24681,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 4) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -24710,7 +24710,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -24740,7 +24740,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 4) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | O ");
@@ -24778,7 +24778,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -24807,7 +24807,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -24836,7 +24836,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -24866,7 +24866,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O |   ");
@@ -24904,7 +24904,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the center space.");
+                                System.out.println("O moves on the center space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -24933,7 +24933,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -24962,7 +24962,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 4) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -24993,7 +24993,7 @@ public class TicTacToe {
                     }
                 }
                 if (move == 8) {
-                    System.out.println("O moves on the bottom-left space.");
+                        System.out.println("O moves on the bottom-left space.");
 
                     System.out.println("   |   |   ");
                     System.out.println("   | O |   ");
@@ -25031,7 +25031,7 @@ public class TicTacToe {
                         
                     }
                     if (move == 0) {
-                        System.out.println("O moves on the center space.");
+                            System.out.println("O moves on the center space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" X | O |   ");
@@ -25069,7 +25069,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the right space.");
+                                System.out.println("O moves on the right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -25124,7 +25124,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -25153,7 +25153,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -25183,7 +25183,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 2) {
-                        System.out.println("O moves on the right space.");
+                            System.out.println("O moves on the right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | X ");
@@ -25221,7 +25221,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the center space.");
+                                System.out.println("O moves on the center space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | X ");
@@ -25276,7 +25276,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -25331,7 +25331,7 @@ public class TicTacToe {
                             }
                         }
                         if (move == 4) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -25387,7 +25387,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 3) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | O ");
@@ -25425,7 +25425,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the center space.");
+                                System.out.println("O moves on the center space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -25454,7 +25454,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 4) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -25483,7 +25483,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -25513,7 +25513,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 4) {
-                        System.out.println("O moves on the top-left space.");
+                            System.out.println("O moves on the top-left space.");
 
                         System.out.println("   |   |   ");
                         System.out.println(" O | O |   ");
@@ -25551,7 +25551,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 2) {
-                            System.out.println("O moves on the left space.");
+                                System.out.println("O moves on the left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | X ");
@@ -25580,7 +25580,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -25609,7 +25609,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 5) {
-                            System.out.println("O moves on the top-right space.");
+                                System.out.println("O moves on the top-right space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -25639,7 +25639,7 @@ public class TicTacToe {
                         }
                     }
                     if (move == 5) {
-                        System.out.println("O moves on the top-right space.");
+                            System.out.println("O moves on the top-right space.");
 
                         System.out.println("   |   |   ");
                         System.out.println("   | O | O ");
@@ -25677,7 +25677,7 @@ public class TicTacToe {
                             
                         }
                         if (move == 0) {
-                            System.out.println("O moves on the center space.");
+                                System.out.println("O moves on the center space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" X | O | O ");
@@ -25706,7 +25706,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 3) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");
@@ -25735,7 +25735,7 @@ public class TicTacToe {
                             System.exit(0);
                         }
                         if (move == 4) {
-                            System.out.println("O moves on the top-left space.");
+                                System.out.println("O moves on the top-left space.");
 
                             System.out.println("   |   |   ");
                             System.out.println(" O | O | O ");

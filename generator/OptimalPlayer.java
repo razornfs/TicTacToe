@@ -14,7 +14,7 @@ class OptimalPlayer {
         int bestScore = Integer.MIN_VALUE;
         int bestMove = -1;
         for (int i = 0; i < 9; i++) {
-            if (board.getTile(i) == Tile.EMPTY) {
+            if (board.isTileEmpty(i)) {
                 board.placeTile(tile, i);
                 int currentScore = minimax(0, false);
                 board.removeTile(i);
@@ -41,7 +41,7 @@ class OptimalPlayer {
         if (isMaximizing) {
             int bestScore = Integer.MIN_VALUE;
             for (int i = 0; i < 9; i++) {
-                if (board.getTile(i) == Tile.EMPTY) {
+                if (board.isTileEmpty(i)) {
                     board.placeTile(tile, i);
                     bestScore = Math.max(bestScore, minimax(depth + 1, false));
                     board.removeTile(i);
@@ -51,7 +51,7 @@ class OptimalPlayer {
         } else {
             int bestScore = Integer.MAX_VALUE;
             for (int i = 0; i < 9; i++) {
-                if (board.getTile(i) == Tile.EMPTY) {
+                if (board.isTileEmpty(i)) {
                     board.placeTile(opponent(tile), i);
                     bestScore = Math.min(bestScore, minimax(depth + 1, true));
                     board.removeTile(i);
